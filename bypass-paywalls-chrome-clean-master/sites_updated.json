@@ -1,0 +1,257 @@
+{
+  "Australian Community Media (daily)": {
+    "domain": "###_au_comm_media",
+    "group": [
+      "bendigoadvertiser.com.au",
+      "bordermail.com.au",
+      "canberratimes.com.au",
+      "centralwesterndaily.com.au",
+      "dailyadvertiser.com.au",
+      "dailyliberal.com.au",
+      "examiner.com.au",
+      "illawarramercury.com.au",
+      "newcastleherald.com.au",
+      "northerndailyleader.com.au",
+      "standard.net.au",
+      "theadvocate.com.au",
+      "thecourier.com.au",
+      "westernadvocate.com.au"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "\\.piano\\.io",
+    "cs_code": "[{\"cond\":\"div[class^=\"gradient-mask-\"]\", \"rm_attrib\": \"class\", \"elems\":[{\"cond\":\"div.hidden\", \"rm_class\": \"hidden\"}]}]",
+    "upd_version": "3.2.5.3"
+  },
+  "Berlingske": {
+    "domain": "berlingske.dk",
+    "allow_cookies": 1,
+    "useragent": "bingbot",
+    "upd_version": "3.1.3.3"
+  },
+  "Correio da Manhã": {
+    "domain": "cmjornal.pt",
+    "allow_cookies": 1,
+    "amp_unhide": 1,
+    "upd_version": "3.2.4.2"
+  },
+  "Delish": {
+    "domain": "delish.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.com\\/_assets\\/jam\\/journey-data\\.js|\\.ensighten\\.com\\/.+\\/Bootstrap\\.js)",
+    "new_site": 1
+  },
+  "Die Zeit": {
+    "domain": "zeit.de",
+    "allow_cookies": 1,
+    "add_ext_link": "aside#paywall|div.article-body",
+    "add_ext_link_type": "archive.is",
+    "upd_version": "3.2.2.4"
+  },
+  "Elle Decor": {
+    "domain": "elledecor.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.com\\/_assets\\/jam\\/journey-data\\.js|\\.ensighten\\.com\\/.+\\/Bootstrap\\.js)",
+    "new_site": 1
+  },
+  "Ftm.eu": {
+    "domain": "ftm.eu",
+    "allow_cookies": 1,
+    "block_regex": "\\.ftm\\.eu\\/js\\/routing\\?"
+  },
+  "Grupo Abril": {
+    "domain": "abril.com.br",
+    "allow_cookies": 1,
+    "block_js_inline": "\\.abril\\.com\\.br\\/.+\\/(\\w+\\-+){3,}",
+    "upd_version": "3.2.4.3"
+  },
+  "Gruppo GEDI.it (italian.tech, lescienze.it & espresso.repubblica.it)": {
+    "domain": "###_it_gedi",
+    "group": [
+      "italian.tech",
+      "lescienze.it",
+      "espresso.repubblica.it"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "(scripts\\.repubblica\\.it\\/pw\\/pw\\.js|cdn\\.ampproject\\.org\\/v\\d\\/amp-(access|user-notification)-.+\\.js)",
+    "useragent": "googlebot",
+    "upd_version": "3.2.1.1"
+  },
+  "Haaretz English": {
+    "domain": "haaretz.com",
+    "allow_cookies": 1,
+    "useragent": "facebookbot",
+    "upd_version": "3.0.8.3"
+  },
+  "Harper's Bazaar": {
+    "domain": "harpersbazaar.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.com\\/_assets\\/jam\\/journey-data\\.js|\\.ensighten\\.com\\/.+\\/Bootstrap\\.js)",
+    "new_site": 1
+  },
+  "Hearst Communications magazines": {
+    "domain": "###_usa_hearst_comm_mag",
+    "group": [
+      "bicycling.com",
+      "cosmopolitan.com",
+      "countryliving.com",
+      "elle.com",
+      "esquire.com",
+      "goodhousekeeping.com",
+      "hollywoodreporter.com",
+      "housebeautiful.com",
+      "menshealth.com",
+      "popularmechanics.com",
+      "prevention.com",
+      "roadandtrack.com",
+      "runnersworld.com",
+      "townandcountrymag.com",
+      "womenshealthmag.com"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "(\\.com\\/_assets\\/jam\\/journey-data\\.js|\\.ensighten\\.com\\/.+\\/Bootstrap\\.js)",
+    "upd_version": "3.2.3.2"
+  },
+  "Het Laatste Nieuws (link to archive.is)": {
+    "domain": "hln.be",
+    "allow_cookies": 1,
+    "add_ext_link": "div#remaining-paid-content|div.article__body",
+    "add_ext_link_type": "archive.is",
+    "block_regex": "temptation\\.hln\\.be\\/temptation\\.js",
+    "upd_version": "3.2.2.6"
+  },
+  "Hindu Tamil Thisai": {
+    "domain": "hindutamil.in",
+    "allow_cookies": 1,
+    "amp_redirect": "div.premium-class-bt",
+    "new_site": 1
+  },
+  "La Vanguardia": {
+    "domain": "lavanguardia.com",
+    "allow_cookies": 1,
+    "block_regex": "\\/ev\\.lavanguardia\\.com",
+    "upd_version": "3.1.5.2"
+  },
+  "Le Télégramme": {
+    "domain": "letelegramme.fr",
+    "allow_cookies": 1,
+    "block_regex": "\\.poool\\.fr\\/",
+    "cs_code": "[{\"cond\":\"div.tlg-paywalled\", \"rm_class\": \"tlg-paywalled\"}]",
+    "upd_version": "3.2.1.1"
+  },
+  "Oprah Daily": {
+    "domain": "oprahdaily.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.com\\/_assets\\/jam\\/journey-data\\.js|\\.ensighten\\.com\\/.+\\/Bootstrap\\.js)",
+    "new_site": 1
+  },
+  "Puck.news": {
+    "domain": "puck.news",
+    "allow_cookies": 1,
+    "ld_google_webcache": "div[class*=\"paywall\"]|div.entry-content",
+    "cs_code": "[{\"cond\":\"body.paywall-active\", \"rm_class\":\"paywall-active\"},{\"cond\":\"article[style]\", \"rm_attrib\":\"style\"}]",
+    "upd_version": "3.2.5.4"
+  },
+  "Quora (regwall)": {
+    "domain": "quora.com",
+    "allow_cookies": 1,
+    "useragent": "googlebot",
+    "upd_version": "3.1.9.6"
+  },
+  "Record.pt": {
+    "domain": "record.pt",
+    "allow_cookies": 1,
+    "block_regex": "cdn\\.ampproject\\.org\\/v\\d\\/amp-access-.+\\.js",
+    "amp_unhide": 1,
+    "upd_version": "3.2.4.2"
+  },
+  "Rugbyrama.fr": {
+    "domain": "rugbyrama.fr",
+    "allow_cookies": 1,
+    "ld_json": "div.paywall|div.article-full__body-content",
+    "upd_version": "3.2.3.3"
+  },
+  "Sábado (not video)": {
+    "domain": "sabado.pt",
+    "allow_cookies": 1,
+    "block_regex": "cdn\\.ampproject\\.org\\/v\\d\\/amp-access-.+\\.js",
+    "amp_redirect": ".bloco_bloqueio",
+    "amp_unhide": 1,
+    "new_site": 1
+  },
+  "Schwarzwälder Bote": {
+    "domain": "schwarzwaelder-bote.de",
+    "allow_cookies": 1,
+    "block_regex": "\\.piano\\.io",
+    "useragent": "googlebot",
+    "cs_code": "[{\"cond\":\"div.mod-paywall\", \"rm_elem\":1}]",
+    "new_site": 1
+  },
+  "Star Tribune": {
+    "domain": "startribune.com",
+    "remove_cookies_select_drop": ["client_id"],
+    "cs_code": "[{\"cond\":\"body:not(.page-article) div.ReactModalPortal\", \"rm_elem\": 1}, {\"cond\":\"body.ReactModal__Body--open\", \"rm_class\": \"ReactModal__Body--open\"}]",
+    "upd_version": "3.2.5.3"
+  },
+  "Stuttgarter Nachrichten": {
+    "domain": "stuttgarter-nachrichten.de",
+    "allow_cookies": 1,
+    "block_regex": "\\.piano\\.io",
+    "useragent": "googlebot",
+    "cs_code": "[{\"cond\":\"div.mod-paywall\", \"rm_elem\":1}]",
+    "new_site": 1
+  },
+  "Stuttgarter Zeitung": {
+    "domain": "stuttgarter-zeitung.de",
+    "allow_cookies": 1,
+    "block_regex": "\\.piano\\.io",
+    "useragent": "googlebot",
+    "cs_code": "[{\"cond\":\"div.mod-paywall\", \"rm_elem\":1}]",
+    "new_site": 1
+  },
+  "TechTarget Group": {
+    "domain": "###_usa_techtarget",
+    "allow_cookies": 1,
+    "group": [
+      "computerweekly.com",
+      "lemagit.fr",
+      "techtarget.com"
+    ],
+    "cs_code": "[{\"cond\":\"div.paywall\", \"rm_class\": \"paywall\", \"elems\":[{\"cond\":\"p#firstP, div#inlineRegistrationWrapper\", \"rm_elem\": 1}]}]",
+    "new_site": 1
+  },
+  "Telegraaf": {
+    "domain": "telegraaf.nl",
+    "allow_cookies": 1,
+    "ld_json": "data-hydrate[data-name='PaywallHandler']|div.DetailBodyBlocks",
+    "upd_version": "3.2.4.3"
+  },
+  "The Athletic": {
+    "domain": "###_usa_theathletic",
+    "group": [
+      "theathletic.com"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "(\\/theathletic\\.com\\/_next\\/static\\/chunks\\/pages\\/article\\/.+\\.js|cdn\\.ampproject\\.org\\/v\\d\\/amp-(access|subscriptions)-.+\\.js)",
+    "upd_version": "3.2.1.1"
+  },
+  "The Atlantic": {
+    "domain": "theatlantic.com",
+    "block_regex": "cdn\\.theatlantic\\.com\\/_next\\/static\\/chunks\\/pages\\/.+\\/archive",
+    "remove_cookies_select_drop": ["articleViews"],
+    "upd_version": "3.0.3.8"
+  },
+  "The New York Times": {
+    "domain": "nytimes.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.nytimes\\.com\\/meter\\.js|mwcm\\.nyt\\.com\\/.+\\.js|cooking\\.nytimes\\.com\\/api\\/.+\\/access)",
+    "useragent": "googlebot",
+    "upd_version": "3.1.4.0"
+  },
+  "UOL.com.br": {
+    "domain": "uol.com.br",
+    "block_regex": "(paywall\\.folha\\.uol\\.com\\.br\\/|\\.crusoe\\.com\\.br\\/assets\\/js\\/swg-wallcontent-crusoe\\.js|\\.(tinypass|matheranalytics)\\.com\\/|cdn\\.ampproject\\.org\\/v\\d\\/amp-subscriptions-.+\\.js)",
+    "remove_cookies_select_drop": ["crs_subscriber"],
+    "useragent": "googlebot",
+    "upd_version": "3.2.3.6"
+  }
+}
